@@ -18,6 +18,7 @@ cd social-app
 ### 2. Установка зависимостей
 Фронтенд:
 ```bash
+cd client
 npm install
 ```
 Бэкенд:
@@ -35,6 +36,7 @@ node index.js
 Ожидаемый вывод: Server running on http://localhost:3001
 Терминал 2 - Фронтенд:
 ```bash
+cd client
 npm run dev
 ```
 Откройте http://localhost:5173 в браузере
